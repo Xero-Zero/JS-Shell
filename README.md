@@ -1,3 +1,3 @@
 # JS-Shell
 
-Thx Bro Brute Logic 
+Thank : Bro Brute Logic 
